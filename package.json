@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "bootstrap": "^3.3.7",
+    "enzyme-adapter-react-16": "^1.1.1",
     "react": "^16.3.1",
     "react-bootstrap": "^0.32.1",
     "react-dom": "^16.3.1",
@@ -19,12 +20,14 @@
     "styleguidist": "npx styleguidist server"
   },
   "devDependencies": {
+    "enzyme": "^3.3.0",
     "eslint": "^4.19.1",
     "eslint-config-standard": "^11.0.0",
     "eslint-plugin-import": "^2.10.0",
     "eslint-plugin-node": "^6.0.1",
     "eslint-plugin-promise": "^3.7.0",
     "eslint-plugin-standard": "^3.0.1",
+    "react-addons-test-utils": "^15.6.2",
     "react-styleguidist": "^7.0.4",
     "react-test-renderer": "^16.3.1"
   }
