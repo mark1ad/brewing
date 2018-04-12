@@ -14,7 +14,7 @@ describe("Header", () => {
   it('renders a Carousel', () => {
     expect(
       shallow(<Home />)
-        .find('Carousel')
+        .find('MyCarousel')
         .length
     ).toBe(1)
   });
