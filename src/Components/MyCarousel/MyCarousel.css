@@ -1,0 +1,12 @@
+.carousel-indicators {
+  bottom: 0;
+  margin-bottom: 5px;
+}
+
+.carousel-indicators li {
+  border-color: grey;
+}
+
+.carousel-indicators .active {
+  background-color: grey;
+}

@@ -2,20 +2,20 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { shallow } from 'enzyme';
 
-import App from './App';
+import Home from './Home';
 
-describe("App", () => {
+describe("Header", () => {
   it('renders without crashing', () => {
     const div = document.createElement('div');
-    ReactDOM.render(<App />, div);
+    ReactDOM.render(<Home />, div);
     ReactDOM.unmountComponentAtNode(div);
   });
 
-  it('renders a Header', () => {
-      expect(
-        shallow(<App />)
-          .find('Header')
-          .length
-      ).toBe(1)
+  it('renders a Carousel', () => {
+    expect(
+      shallow(<Home />)
+        .find('MyCarousel')
+        .length
+    ).toBe(1)
   });
 });

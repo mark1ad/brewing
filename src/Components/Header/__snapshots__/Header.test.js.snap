@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders correctly 1`] = `
+exports[`Header renders correctly 1`] = `
 <nav
   className="navbar navbar-default"
 >
@@ -51,7 +51,7 @@ exports[`renders correctly 1`] = `
           style={undefined}
         >
           <a
-            href="/beers"
+            href="#/beers"
             onClick={[Function]}
             onKeyDown={[Function]}
           >
@@ -64,7 +64,7 @@ exports[`renders correctly 1`] = `
           style={undefined}
         >
           <a
-            href="/events"
+            href="#/events"
             onClick={[Function]}
             onKeyDown={[Function]}
           >
@@ -77,7 +77,7 @@ exports[`renders correctly 1`] = `
           style={undefined}
         >
           <a
-            href="/food"
+            href="#/food"
             onClick={[Function]}
             onKeyDown={[Function]}
           >
@@ -90,7 +90,7 @@ exports[`renders correctly 1`] = `
           style={undefined}
         >
           <a
-            href="/about"
+            href="#/about"
             onClick={[Function]}
             onKeyDown={[Function]}
           >
