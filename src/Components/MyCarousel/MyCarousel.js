@@ -1,6 +1,8 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
 
+import "./MyCarousel.css";
+
 import * as kettleImage from  './martin-knize-39793-unsplash.jpg';
 import * as drinkerImage from  '././robert-mathews-168904-unsplash.jpg';
 import * as tapsImage from  './sam-hetterich-578690-unsplash.jpg';
@@ -20,7 +22,6 @@ const MyCarousel = () => {
           <img alt="taps" src={tapsImage} />
         </Carousel.Item>
       </Carousel>
-
     </div>
   );
 };
